@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 环境变量
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+
+# 数据库文件（如果你不想把本地测试库传上去）
+*.db
+
+# 上传图片（如果这些是运行时生成的）
+backend/static/uploads/
+
+# Python 打包缓存
+build/
+dist/
+*.egg-info/
